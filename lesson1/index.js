@@ -8,11 +8,11 @@
     - Численность населения (число)
     - Есть ли футбольный стадион (boolean [ true(да) / false(нет) ])
 */
-let city_name = "Kyiv",
+let cityName = "Kyiv",
     country = "Ukraine",
     population = 2884000,
-    has_stadium = true;
-console.log(city_name, country, population, has_stadium);
+    hasStadium = true;
+console.log(cityName, country, population, hasStadium);
 
 /* 
     Задание 2:
@@ -24,10 +24,10 @@ console.log(city_name, country, population, has_stadium);
 
     ps: каждая сущность должна находиться в отдельной переменной
 */
-    let rect_height = 40;
-    let rect_width = 70;
-    let rect_square = rect_height * rect_width;
-    console.log(rect_square);
+    let rectHeight = 40;
+    let rectWidth = 70;
+    let rectSquare = rectHeight * rectWidth;
+    console.log(rectSquare);
 
 /* 
     Задание 3:
@@ -46,7 +46,7 @@ console.log(city_name, country, population, has_stadium);
     let time = 2,
     speedOfFirst = 95,
     speedOfSecond = 114,
-    distance = (speedOfFirst + speedOfSecond) * 2;
+    distance = (speedOfFirst + speedOfSecond) * time;
     console.log(distance);
 
 /* 
