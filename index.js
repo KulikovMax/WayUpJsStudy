@@ -96,11 +96,13 @@ for(let i = 0; i < partsOrder.length; i++){
     При вызове функции передайте ей, в качестве аргумента, свое имя и фамилию.
 */
 
-let showMyName = (firstName, lastName) => {
+const showMyName = (firstName, lastName) => {
     const fullName = `${firstName} ${lastName}`;
     console.log(fullName);
 }
 
+showMyName('Max', 'Kulikov');
+ 
 /* 
     Задание 5:
 
