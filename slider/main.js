@@ -61,5 +61,14 @@ dots.forEach((item, indexDot)=> {
     })
 })
 
+const start = () => {
+    interval = window.setInterval(()=>{
+        index++;
+        prepareCurrentSlide();
+    }, 2000);
+}
+
 next.addEventListener('click', nextSlide);
 prev.addEventListener('click', prevSlide);
+start()
+
