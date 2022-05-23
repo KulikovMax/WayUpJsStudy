@@ -63,8 +63,12 @@ dots.forEach((item, indexDot)=> {
 
 const start = () => {
     interval = window.setInterval(()=>{
+        if(index == slides.length - 1){
+            index = 0;
+            prepareCurrentSlide();
+        } else{
         index++;
-        prepareCurrentSlide();
+        prepareCurrentSlide();}
     }, 2000);
 }
 
